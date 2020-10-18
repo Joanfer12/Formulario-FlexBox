@@ -1,0 +1,80 @@
+body{
+    background-image: radial-gradient(circle, #B0C1EA, #1F2229);
+    margin:0;
+}
+.flex-container{
+    margin: 5em auto;
+    display: flex;
+    width: 700px;
+    height: 520px;
+    background-color: #333;
+    filter: drop-shadow(10px 10px 5px black );
+    
+}
+.flex-left {
+width: 20%;
+display: flex;
+align-items: center;
+background-color:#1F2229;
+}
+h3{
+    padding: 5px;
+    font-size:30px;
+}
+.flex-left > img{
+     transform: rotate(-90deg);
+   
+    
+    
+}
+.flex-rigth{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left:2em ;
+}
+.form-field{
+    display: flex;
+    flex-direction: column;
+    margin:2em;
+    
+}
+.form-names{
+    display: flex;
+    
+}
+.label{
+    text-transform:uppercase ;
+    margin-bottom:2em ;
+    
+}
+.input-name, .input-fullname{
+    text-decoration: none;
+    border: none;
+    border-bottom: 1px solid black;
+   background: none;
+}
+.input-email{
+    border:none;
+    background: none;
+    border-bottom: 1px solid black;
+    width: 350px;
+
+}
+.text-area{
+    border:none;
+    background: none;
+    border-bottom: 1px solid black;
+    width: 350px;
+    height: 75px;
+    resize: none;
+}
+.input-button{
+   
+   background-color:#515154;
+   padding: .8rem;
+   width:78px;
+   border-radius: 10px;
+   
+
+}
